@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">MyLoginApp</string>
+    <string name="app_name">PLACE</string>
+    <string name="admin">ADMIN</string>
 </resources>

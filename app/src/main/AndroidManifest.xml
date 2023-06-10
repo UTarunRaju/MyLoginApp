@@ -9,7 +9,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLoginApp">
         <activity
-            android:name=".user_home"
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSignin"
+            android:exported="false" />
+        <activity
+            android:name=".UserSignin"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPage"
+            android:exported="false" />
+        <activity
+            android:name=".UserHome"
             android:exported="false" />
         <activity android:name=".MainActivity">
             <intent-filter>
