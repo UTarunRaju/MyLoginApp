@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/blue"
-    tools:context=".AdminPage">
+    tools:context=".AdmineLogin">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -23,23 +23,6 @@
         app:srcCompat="@drawable/user_male_icon" />
 
 
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/signin1"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/forgotpass"
-        android:layout_below="@id/password"
-        android:layout_alignParentStart="true"
-
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="75dp"
-        android:layout_marginBottom="20dp"
-        android:layout_toStartOf="@+id/loginbtn"
-        android:backgroundTint="#30A9FA"
-        android:text="SIGN-IN" />
-
     <TextView
         android:id="@+id/signin"
         android:layout_width="match_parent"
@@ -49,6 +32,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="50dp"
         android:gravity="center"
+        android:linksClickable="true"
         android:text="Admin"
         android:textColor="@color/white"
         android:textSize="35dp"
@@ -91,26 +75,33 @@
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/loginbtn"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/password"
+
+
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="78dp"
-        android:layout_marginEnd="74dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="@color/design_default_color_secondary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="162dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="297dp"
+        android:backgroundTint="@color/black"
         android:text="LOGIN" />
 
     <TextView
+        android:id="@+id/forgotpass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/forgotpass"
         android:layout_below="@id/loginbtn"
-        android:text="Forgot password?"
-        android:textColor="@color/white"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:text="Forgot password?"
+        android:textColor="@color/white" />
 
 
     <TextView

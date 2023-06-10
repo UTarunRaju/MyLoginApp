@@ -9,6 +9,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyLoginApp">
         <activity
+            android:name=".ForgotPassword"
+            android:exported="false" />
+        <activity
             android:name=".AdminHome"
             android:exported="false" />
         <activity
@@ -18,7 +21,7 @@
             android:name=".UserSignin"
             android:exported="false" />
         <activity
-            android:name=".AdminPage"
+            android:name=".AdmineLogin"
             android:exported="false" />
         <activity
             android:name=".UserHome"
